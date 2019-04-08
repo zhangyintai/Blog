@@ -6,10 +6,37 @@
     </head>
     <body>
         <h1>Hello world!</h1>
-        <p><strong>The ground state of the helium atom</strong> <span class="roman">The Hamiltonian of a helium atom can be written as</span> <span class="math display">\[H=\frac{p_1^2}{2}+\frac{p_2^2}{2}-\frac{2}{r_1}-\frac{2}{r_2}+\frac{1}{|\textbf{r$_1$}-\textbf{r$_2$}|}\]</span> <span class="roman">in which we have used atomic unit and neglected the motion of the nucleus. The wavefunction for the space part of the ground state of the helium atom can be written as</span> <span class="math display">\[\psi_0(\textbf{r$_1$},\textbf{r$_2$})=\psi_{1s}(\textbf{r$_1$};Z^*)\psi_{1s}(\textbf{r$_2$};Z^*)\]</span> <span class="roman">in which <span class="math inline">\(\psi_{1s}(\textbf{r};Z^*)\)</span> has a form of</span> <span class="math display">\[\psi_{1s}(\textbf{r};Z^*)=\sqrt{\frac{1}{4\pi}}{Z^*}^{3/2}2e^{-Z^*r}\]</span> <span class="roman">where <span class="math inline">\(Z^*\)</span> is the effective number of charges of the nucleus. The energy of such state can be given by</span> <span class="math display">\[\begin{split}
-        E_0 =E_0(Z^*)&amp; =  \int_\infty \psi_0(\textbf{r$_1$},\textbf{r$_2$})^*H\psi_0(\textbf{r$_1$},\textbf{r$_2$})dV_1dV_2 \\
-            &amp; = -2\times \frac{1}{2}{Z^*}^2+ \int_\infty \psi_0(\textbf{r$_1$},\textbf{r$_2$})^*(\frac{1}{|\textbf{r$_1$}-\textbf{r$_2$}|}-\frac{2-Z^*}{r_1}-\frac{2-Z^*}{r_2})\psi_0(\textbf{r$_1$},\textbf{r$_2$})dV_1dV_2 \\
-            &amp;  =(Z^*)^2-\frac{27}{8}Z^*.
-    \end{split}\]</span> <span class="roman">By the variation theory, we should have</span> <span class="math display">\[\frac{\partial E_0}{\partial Z^*}=0\]</span> <span class="roman">which yields that <span class="math inline">\(Z^*=\frac{27}{16}\)</span> from which we can infer that <span class="math inline">\(E_0= -2.85\)</span> a.u. which correspond to <span class="math inline">\(- 77.52\)</span> eV.</span> <span class="roman">Under perturbation theory, the zeroth order is given by</span> <span class="math display">\[H^{(0)}=-2\times\frac{1}{2}\times 2^2=-4\]</span> <span class="roman">and the first correction order is given by</span> <span class="math display">\[H^{(1)}=\int_\infty \psi_0(\textbf{r$_1$},\textbf{r$_2$})^*\frac{1}{|\textbf{r$_1$}-\textbf{r$_2$}|}\psi_0(\textbf{r$_1$},\textbf{r$_2$})dV_1dV_2\]</span> <span class="roman">with <span class="math inline">\(Z^*=2\)</span>. After some calculations, the result is <span class="math inline">\(H^{(1)}=\frac{5}{4}\)</span>. Thus the energy of the ground state can be calculated as (to the first order) <span class="math inline">\(E_0=H^{(0)}+H^{(1)}=\frac{11}{4}\)</span> a.u. which corresponds <span class="math inline">\(-74.8\)</span> eV.</span> <span class="roman">The variation methods claims a result that is lower than the result given by the perturbation theory. This is because the way the variation treated this problem is similar to the mean field theory. It is obvious that such approximation will be invalid if electrons happens to be either too far away or too close the nucleus. The errors caused by the validations are not likely cancel out in most cases.</span></p>
+        <p><span style="font-size:larger;"><strong>The ground state of the helium atom</strong></span></p>
+
+<p>The Hamiltonian of a helium atom can be written as</p>
+
+<p>$$H=\frac{p<em>1^2}{2}+\frac{p</em>2^2}{2}-\frac{Z^<em>}{r_1}-\frac{Z^</em>}{r<em>1}+\frac{1}{|\bold{r</em>1}-\bold{r_2}|}$$</p>
+
+<p>in which we have used atomic unit and neglected the motion of the nucleus. The wavefunction for the space part of the ground state of the helium atom can be written as</p>
+
+<p>$$\psi<em>0(\text{r$</em>1$},\text{r$<em>2$})=\psi</em>{1s}(\text{r$<em>1$};Z^*)\psi</em>{1s}(\text{r$_2$};Z^*)$$</p>
+
+<p>in which $\psi_{1s}(\text{r};Z^*)$ has a form of</p>
+
+<p>$$\psi_{1s}(\text{r};Z^<em>)=\sqrt{\frac{1}{4\pi}}{Z^</em>}^{3/2}2e^{-Z^*r}$$</p>
+
+<p>where $Z^*$ is the effective number of charges of the nucleus. The energy of such state can be given by</p>
+
+<p>$$E<em>0 =E</em>0(Z^<em>)=  \int_{\infty} \psi_0(\text{r$_1$},\text{r$_2$})^</em>H\psi<em>0(\text{r$</em>1$},\text{r$<em>2$})dV</em>1dV<em>2 = -2\times \frac{1}{2}{Z^*}^2+ \int</em>\infty \psi<em>0(\text{r$</em>1$},\text{r$<em>2$})^*(\frac{1}{|\text{r$</em>1$}-\text{r$<em>2$}|}-\frac{2-Z^*}{r</em>1}-\frac{2-Z^<em>}{r_2})\psi_0(\text{r$_1$},\text{r$_2$})dV_1dV_2  =(Z^</em>)^2-\frac{27}{8}Z^*.$$</p>
+
+<p>By the variation theory, we should have</p>
+
+<p>$$\frac{\partial E_0}{\partial Z^*}=0$$</p>
+
+<p>which yields that $Z^*=\frac{27}{16}$ from which we can infer that $E_0= -2.85$ a.u. which correspond to $- 77.52$ eV.</p>
+
+<p>Under perturbation theory, the zeroth order is given by
+$$H^{(0)}=-2\times\frac{1}{2}\times 2^2=-4$$</p>
+
+<p>and the first correction order is given by</p>
+
+<p>$$H^{(1)}=\int<em>\infty \psi</em>0(\text{r$<em>1$},\text{r$</em>2$})^*\frac{1}{|\text{r$<em>1$}-\text{r$</em>2$}|}\psi<em>0(\text{r$</em>1$},\text{r$<em>2$})dV</em>1dV_2$$</p>
+
+<p>with $Z^*=2$. After some calculations, the result is $H^{(1)}=\frac{5}{4}$. Thus the energy of the ground state can be calculated as (to the first order) $E_0=H^{(0)}+H^{(1)}=\frac{11}{4}$ a.u. which corresponds $-74.8$ eV.</p>
     </body>
 </html>
