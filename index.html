@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Coviriant g minor's blog</title>
+  <title>Covariant g minor's blog</title>
   <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async>
 </script>
@@ -24,8 +24,11 @@ A: In the iontrap experiments, we need to change the position of the ions (which
 Thus, we need to control the voltages that apply on the electrodes precisely. A digital-analog converter (DAC) can also be used to do such work probably, but it is often neither accurate nor fast enough comparing to the oscillation of the ions. Mostly the DACs are used for some rough operations, e.g. loading
 the ions. In addition, moving ions fast-and-cold can decrease the excitations and save time, both of the benefits make the realization of the quantum computers possible. Such protocols are impossible for DACs to perform while the AWG available.</p>
 <p><b>Some other proper nouns:</b></br>
-FPGA: FPGA stands for field-programmable gate array.<br>
-LVDS: LVDS is the abbreviation of low-voltage differential signaling. It is a technique that was first introduced in 1994 to reduce the electromagnetic noise and the interference in the power and ground lines during transmission. What's more, as the name suggested, LVDS is unsensitive to the common mode voltage changes.</p>
+FPGA: FPGA stands for field-programmable gate array.<br><br>
+LVDS: LVDS is the abbreviation of low-voltage differential signaling. It is a technique that was first introduced in 1994 to reduce the electromagnetic noise and the interference in the power and ground lines during transmission. What's more, as the name suggested, LVDS is unsensitive to the common mode voltage changes.<br><br>
+SFDR: SFDR stands for spurious-free dynamic range, which is often defined as the ratio between the maximum value of the amplitude of the signal and the maximum value of the amplitude of the noise (usually the second largest signal component) to the RMS value excluding the DC.<br><br>
+IMD: IMD stands for intermodulation distortion which includes the effects of harmonic distortion and two-tone distortion. It measures the total power of the selected intermodulation products (e.g. IM2 is the total power of the 2nd-order intermodulation products, namely, \(f_1+f_2\) and \(f_1-f_2\)).</p>
+
 <p><b>Some ideas</b></br>
 1. Generate waveforms using cubic spline interpolation by FPGA to enhance continuity and to save space.<br>
 2. Different modes of the AWG.<br></p>
